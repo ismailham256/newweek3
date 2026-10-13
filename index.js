@@ -20,8 +20,8 @@ const EmpSkills= (skills,Name,LabGrp)=> {
 } 
 EmpSkills("java","Replace this with your Student ID ","Replace with your Lab Grp")
 // code for third Exercise 
-const student= require('./StudentInfo')  
-const person = require('./Person')  
+const student= require('./studentinfo')  
+const person = require('./Pearson')  
 // because getName is the function so we use ()  
 console.log("Student Name:" +student.getName())   
 console.log(student.Location())  
